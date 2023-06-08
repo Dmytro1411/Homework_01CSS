@@ -1,0 +1,127 @@
+:root {
+  background: white;
+}
+* {
+  color: black;
+}
+h1 {
+  background: blue;
+}
+.green {
+  color: green;
+}
+#blue {
+  color: blue;
+}
+.box p {
+  background: red;
+}
+.box div {
+  background: green;
+}
+.brown {
+  background: brown;
+  color: white;
+}
+div > ul > li {
+  background: red;
+}
+.header-button + span {
+  background: red;
+}
+.susid ~ p {
+  color: white;
+  background: blue;
+}
+.salo,
+#bread {
+  background: yellow;
+}
+.first-task li:first-child {
+  color: white;
+}
+/* Один вариант */
+/* .second-task ul:nth-child(1) li:first-child {
+    color: yellow; */
+/* Второй вариант */
+.second-task ul:first-child li:first-child {
+  color: yellow;
+}
+/* Один вариант */
+/* .third-task ul:nth-child(2) li:first-child {
+  color: yellow;
+} */
+/* Второй вариант */
+.third-task ul:last-child li:first-child {
+  color: yellow;
+}
+.four-task li:last-child {
+  color: yellow;
+}
+/* Один вариант */
+/* .five-task ul:nth-child(2) li:last-child {
+  color: white;
+} */
+/* Второй вариант */
+.five-task ul:last-child li:last-child {
+  color: white;
+}
+.only-child-task div:only-child {
+  color: red;
+}
+.seven-task p:first-of-type {
+  background: red;
+}
+.eight-task p:last-of-type {
+  background: red;
+}
+/* Первый вариант */
+.text-wrapper p:only-of-type {
+  background: yellow;
+}
+/* Второй вариант */
+/* .nine-task p:only-of-type {
+    background: yellow; */
+a[href] {
+  color: white;
+  background: black;
+}
+.lesson-three-task-two [value] {
+  color: yellow;
+}
+.lesson-three-task-three [value='3'] {
+  background: black;
+}
+.lesson-three-task-four [class~='primary'] {
+  background: blue;
+}
+.lesson-three-task-five [class|='secondary'] {
+  background: red;
+}
+.lesson-three-task-six [class^='b'] {
+  color: green;
+  background: white;
+}
+.lesson-three-task-seven [class*='on'] {
+  color: green;
+  background: white;
+}
+.lesson-three-task-eight [class$='s'] {
+  color: blue;
+  background: white;
+}
+.lesson-three-task-nine ::first-letter {
+  color: red;
+}
+.lesson-three-task-ten p::first-line {
+  background: yellow;
+}
+.lesson-three-task-eleven input::placeholder {
+  background: red;
+}
+.lesson-three-task-twelve li::before {
+  content: '➤';
+}
+.lesson-three-task-thirteen li::after {
+  content: '➤';
+}
